@@ -4,7 +4,7 @@
 Please do not disclose vulnerabilities publicly.
 
 Report security issues to:
-tbd@aas-twinengine.org
+psirt@mm-software.com
 
 Include:
 - Affected component and version
