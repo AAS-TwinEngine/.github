@@ -22,10 +22,55 @@ More info: https://developercertificate.org/
 ---
 
 ## 3. Branching & Pull Requests
-- Use feature branches: `feature/<short-topic>`
-- Open PRs against `main`
-- Add **AlignsTo** in PR description (Demand ID, Initiative, Release)
-- Keep PRs small and focused; ensure CI passes
+### Branch Structure
+
+A standard branch structure is as follows:
+
+• develop – Ongoing development and integration  
+• feature/* – Feature-specific branches  
+
+---
+
+### Branching Strategy
+
+#### Develop Branch
+
+• Used for active development  
+• Feature branches are merged into this branch  
+
+---
+
+#### Feature Branches
+
+• Created from develop  
+• Naming convention: feature/{ticket-id}-{short-description}  
+• Used for individual features or enhancements  
+• Deleted after successful merge  
+
+---
+
+### Release Management
+
+#### Feature Development
+
+1. Create feature branch from develop:  
+   `git checkout -b feature/TICKET-123-new-auth`
+
+2. Develop and commit changes  
+
+3. Push branch: triggers Docker build with tag  
+   `feature-{short-sha}`  
+
+4. Create Pull Request to develop with title:  
+   `[TICKET-123] Brief description`  
+
+5. Manual Approval Required: All PRs require manual approval  
+
+6. QA Approval Required: If "Testcase required" is set to true, QA engineer approval is mandatory  
+
+7. Squash and merge to develop  
+
+8. Automatic cleanup of feature branch and images 
 
 ---
 
