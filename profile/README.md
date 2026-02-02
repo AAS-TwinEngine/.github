@@ -1,4 +1,5 @@
 ## Open Source Opening 2026-01-28 !
+[Recording of Opening Session](https://www.youtube.com/watch?v=yYFYJ8Kh9Dg)
 
 ![Banner](images/AAS_TwinEngine.png)
 
