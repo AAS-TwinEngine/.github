@@ -10,4 +10,3 @@ For anything you can't decide you also might contact us via mailto:aas.twinengin
 ## Business related
 
 For any non-technical queries, please visit [AAS.TwinEngine](https://www.mm-software.com/what-we-do/software-engineering/design/industrie-40/aas-twinengine) on our Website.
-Here you will find contact options that are happy to ... tbd
