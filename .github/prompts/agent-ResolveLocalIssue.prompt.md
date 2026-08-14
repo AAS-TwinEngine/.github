@@ -1,10 +1,11 @@
 ---
-name: ResolveIssue
-description: Resolves the Issue with the given Issue number from the Backlog in PM repository, commits the changes, and creates a draft PR.
+name: ResolveLocalIssue
+description: Resolves the local draft created Issue in PM repository, commits the changes, and creates a draft PR.
 agent: agent
 ---
 
-Assign the following issue https://github.com/AAS-TwinEngine/AAS.TwinEngine.PM/issues/${input:issue:Type the issue number from the backlog here} to Copilot and resolve the issue by making the necessary code changes in the respective repositories.
+Assign the draft issue in PM repository which can be located in PM .cache folder to Copilot and resolve the issue by making the necessary code changes in the respective repositories.
+Start with tasks if there are any, continue with PBI's and then with Features.
 Use @workspace as context.
 If the issue requires changes in multiple repositories, make sure to create separate branches for each repository following the defined naming conventions.
 Create test cases to validate the changes made and ensure that they do not introduce any regressions.
