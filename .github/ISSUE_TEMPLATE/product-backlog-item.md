@@ -1,9 +1,10 @@
 ---
 name: Product Backlog Item
 about: This template can be used to create backlog item as "PBI"
-title: "[PBI]"
+title: ""
 labels: ''
 assignees: ''
+type: PBI
 
 ---
 
@@ -15,15 +16,15 @@ assignees: ''
 
 ---
 
-### ✅ Acceptance Criteria
+### Acceptance Criteria
 - [ ] Condition 1
 - [ ] Condition 2
 - [ ] Condition 3
 
 ---
 
-### 📝 Concept
+### Concept
 
 ---
 
-### 📝 Additional Notes
+### Additional Notes
