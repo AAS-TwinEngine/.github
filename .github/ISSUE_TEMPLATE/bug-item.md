@@ -4,10 +4,11 @@ about: This template can be used to create backlog item as "Bug"
 title: "[Bug]"
 labels: ''
 assignees: ''
+type: Bug
 
 ---
 
-### 📘 Incorrect
+### Incorrect
 <Short description of the bug>
 
 **Severity:**
@@ -18,12 +19,12 @@ assignees: ''
 
 ---
 
-### 📘 System Info
+### System Info
 <System information where the bug occurs>
 
 ---
 
-### ✅ Steps to Reproduce
+### Steps to Reproduce
 1. Step 1
 2. Step 2
 3. Step 3
@@ -34,12 +35,12 @@ assignees: ''
 
 ---
 
-### ✅ Acceptance Criteria
+### Acceptance Criteria
 - [ ] Condition 1
 - [ ] Condition 2
 - [ ] Condition 3
 
 ---
 
-### 📝 Additional Notes
+### Additional Notes
 <Additional Notes>
